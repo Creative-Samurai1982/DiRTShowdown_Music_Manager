@@ -1,0 +1,144 @@
+CHANGELOG
+
+DiRT Showdown Music Manager
+
+All notable changes to this project will be documented in this file.
+
+The format is loosely based on Keep a Changelog, adapted for this project.
+
+[0.0.3] – Stable Release Candidate Phase
+Added
+
+Automatic cleanup of vgmstream sidecar files (*.dic#*.wav)
+
+Version-aware interactive build system
+
+Versioned EXE naming (e.g. ShowdownMusicManager_v0.0.3.exe)
+
+Versioned release folder generation
+
+UK English manual (PDF)
+
+Structured first-run workflow documentation
+
+Clear explanation of DIC/WIM architecture in manual
+
+Author contact details for feedback and feature requests
+
+Improved
+
+WAV cleanup logic now safely targets DIC sidecar files only
+
+Backup-first safety model clarified in documentation
+
+Rich CLI workflow simplified for first-time users
+
+Manual rewritten to be workflow-based instead of feature-based
+
+UK spelling standardised (Licence, categorisation, behaviour, etc.)
+
+Fixed
+
+Sidecar WAV files not being deleted automatically
+
+Documentation not appearing correctly in packaged builds
+
+Inconsistent tool resolution for vgmstream CLI
+
+Minor spelling inconsistencies
+
+Duplicate loop in About menu
+
+Path resolution issues in packaged EXE
+
+Notes
+
+This version represents a stable injection pipeline.
+
+Profiles, injection, cleanup, and restore features verified working.
+
+Considered baseline for future enhancements.
+
+[0.0.2] – Injection Stabilisation Phase
+Added
+
+Per-stream sample rate and channel matching during injection
+
+Deterministic loudness profiling
+
+Two-pass FFmpeg loudness normalisation
+
+Plan export (JSON + TXT)
+
+ZIP pack builder
+
+Backup presence checks
+
+Restore ALL from backups option
+
+Bad audio policy (strict / skip / fallback)
+
+Improved
+
+Injection logging clarity
+
+XML parsing resilience (invalid comments & ampersand handling)
+
+Performance improvements during DIC scanning
+
+Scan caching infrastructure
+
+Fixed
+
+Injection behaviour when conversion failed
+
+Incorrect path resolution under PyInstaller onefile builds
+
+Multiple packaging-related file resolution issues
+
+[0.0.1] – Initial Functional Prototype
+Added
+
+Basic WIM injection capability
+
+Windows-only CLI interface using Rich
+
+Backup-first overwrite model
+
+Basic DIC scanning
+
+FFmpeg integration
+
+vgmstream integration
+
+Known Limitations (at the time)
+
+No automatic WAV sidecar cleanup
+
+Documentation incomplete
+
+Packaging path issues
+
+Manual workflow unclear
+
+Planned / Under Consideration
+
+Backup manifest including tool version metadata
+
+Restore compatibility validation between tool versions
+
+Expanded technical appendix
+
+Additional injection diagnostics logging
+
+Optional integrity verification mode
+
+Versioning Philosophy
+
+This project currently uses a 0.x version scheme during stabilisation.
+
+0.0.x → Structural stabilisation & bug fixes
+
+0.1.x → Feature-complete pre-release
+
+1.0.0 → First fully stable public release
