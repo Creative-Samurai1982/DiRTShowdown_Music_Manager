@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Dirt_Music_Manager\app\showdown_music_manager_windows_KNOWN_GOOD_CLEAN_UK_AUTOWAV.py", line 2314, in <module>
+    main()
+  File "C:\Dirt_Music_Manager\app\showdown_music_manager_windows_KNOWN_GOOD_CLEAN_UK_AUTOWAV.py", line 1917, in main
+    cleanup_all_dic_sidecar_wavs(game_root, log, console)
+UnboundLocalError: local variable 'game_root' referenced before assignment
